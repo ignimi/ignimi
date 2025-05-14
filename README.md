@@ -10,5 +10,5 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ignimi&show_icons=true&locale=en&layout=compact" alt="ignimi" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ignimi&" alt="ignimi" /></p>
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
