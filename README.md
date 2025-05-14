@@ -2,4 +2,4 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ignimi&layout=compact&theme=tokyonight)
 
-![](https://github-readme-activity-graph.cyclic.app/graph?username=ignimi&theme=dracula)
+![Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=ignimi&theme=dracula)
