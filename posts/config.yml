@@ -1,0 +1,76 @@
+baseURL: https://ignimi.vercel.app # 绑定的域名
+title: ignimi posts
+theme: PaperMod # 主题名称，和themes文件夹下的一致
+languageCode: zh
+
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
+
+minify:
+    disableXML: true
+
+permalinks:
+  post: "/:title/"
+  # post: "/:year/:month/:day/:title/"
+
+defaultContentLanguage: zh # 最顶部首先展示的语言页面
+defaultContentLanguageInSubdir: true
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+languages:
+    zh:
+      languageName: "Chinese"
+      weight: 1
+
+      menu:
+        main:
+          - identifier: search
+            name: 🔍 Search
+            url: search
+            weight: 1
+          - identifier: posts
+            name: 📑 Posts
+            url: /posts
+            weight: 2
+          - identifier: archives
+            name: 📆 Timeline
+            url: /archives
+            weight: 3
+          - identifier: categories
+            name: 🧩 Category
+            url: categories
+            weight: 4
+          - identifier: tags
+            name: 📌 Tags
+            url: /tags
+            weight: 5
+          - identifier: about
+            name: 🙋🏻‍♂️ About
+            url: /about
+            weight: 6
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+  env: production
+  author: ignimi
+  defaultTheme: auto
+  DateFormat: "2006-01-02"
+  ShowToc: true # 显示目录
+  TocOpen: true # 自动展开目录
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ignimi"
+
+  assets:
+    favicon: /img/favicon.ico
+    favicon16x16: /img/favicon.ico
+    favicon32x32: /img/favicon.ico
